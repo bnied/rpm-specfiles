@@ -1,4 +1,5 @@
 %global debug_package %{nil}
+%global gitsha gd322ebd
 
 %ifarch x86_64
 %global altarch amd64
@@ -11,12 +12,12 @@
 %endif
 
 Name:stdiscosrv
-Version:0.14.7+7-gd322ebd
+Version:0.14.7+7
 Release:1%{?dist}
 Summary:Open Source File Synchronization - Discovery Server
 License:MIT
 URL:https://syncthing.net/
-Source0:https://build.syncthing.net/job/stdiscosrv/lastSuccessfulBuild/artifact/%{name}-linux-%{altarch}-v%{version}.tar.gz
+Source0:https://build.syncthing.net/job/stdiscosrv/lastSuccessfulBuild/artifact/%{name}-linux-%{altarch}-v%{version}-%{gitsha}.tar.gz
 ExclusiveArch:x86_64 %{ix86}
 BuildRequires:systemd
 
