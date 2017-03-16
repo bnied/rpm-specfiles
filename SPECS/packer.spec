@@ -1,5 +1,5 @@
 Name: packer	
-Version: 0.12.0
+Version: 0.12.3
 Release: 1%{?dist}
 Summary: Create machine and container images for multiple platforms
 Group: Development/Tools
