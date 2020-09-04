@@ -6,7 +6,7 @@ Group: Development/Tools
 License: MPLv2.0
 URL: https://www.packer.io/
 
-Source0: https://releases.hashicorp.com/packer/%{version}/packer_%{version}_linux_amd64.zip
+Source0: https://releases.hashicorp.com/packer/%{version}/packer_%{version}_linux_%{_arch}.zip
 
 %description
 Packer is a tool for creating machine and container images for
